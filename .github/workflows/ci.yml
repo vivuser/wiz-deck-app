@@ -21,7 +21,9 @@ jobs:
       - name: Simulate CI Failure
         run: |
           echo "Running CI   modified................"
-          exit 0
+          exit 1
+
+          
 
 
 
